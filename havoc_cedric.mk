@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2019 The havocOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -10,11 +10,11 @@ $(call inherit-product, device/motorola/cedric/device.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_cedric
+PRODUCT_NAME := havoc_cedric
 PRODUCT_DEVICE := cedric
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := Moto G (5)
@@ -25,5 +25,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="cedric_retail"
 
 BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
-
 PRODUCT_GMS_CLIENTID_BASE := android-motorola

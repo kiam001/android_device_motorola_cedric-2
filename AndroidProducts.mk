@@ -15,9 +15,35 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_cedric.mk
+    $(LOCAL_DIR)/lineage_cedric.mk \
+    $(LOCAL_DIR)/aosp_cedric.mk \
+    $(LOCAL_DIR)/corvus_cedric.mk \
+    $(LOCAL_DIR)/havoc_cedric.mk \
+    $(LOCAL_DIR)/du_cedric.mk \
+    $(LOCAL_DIR)/bliss_cedric.mk \
+    $(LOCAL_DIR)/colt_cedric.mk
 
 COMMON_LUNCH_CHOICES := \
     lineage_cedric-user \
     lineage_cedric-userdebug \
-    lineage_cedric-eng
+    lineage_cedric-eng \
+    aosp_cedric-user \
+    aosp_cedric-userdebug \
+    aosp_cedric-eng \
+    corvus_cedric-user \
+    corvus_cedric-userdebug \
+    corvus_cedric-eng \
+    havoc_cedric-user \
+    havoc_cedric-userdebug \
+    havoc_cedric-eng \
+    du_cedric-user \
+    du_cedric-userdebug \
+    du_cedric-eng \
+    bliss_cedric-user \
+    bliss_cedric-userdebug \
+    bliss_cedric-eng \
+    colt_cedric-user \
+    colt_cedric-userdebug \
+    colt_cedric-eng
+
+
