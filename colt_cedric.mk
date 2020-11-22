@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+ARGET_BOOT_ANIMATION_RES := 1080x1920
+
+
 $(call inherit-product, device/motorola/cedric/device.mk)
 
 # Inherit from those products. Most specific first.
