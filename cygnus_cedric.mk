@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
 # Inherit some common cygnus stuff.
-$(call inherit-product, vendor/cygnus/config/common_full_phone.mk)
+$(call inherit-product, vendor/cygnus/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := cygnus_cedric
